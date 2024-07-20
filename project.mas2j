@@ -1,0 +1,10 @@
+MAS project{
+
+    environment : env.myEnvironment
+
+    agent:
+        agent1;
+
+    aslSourcePath : "src/agt";
+
+}
