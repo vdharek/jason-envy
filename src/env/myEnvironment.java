@@ -1,13 +1,16 @@
-import jade.util.Logger;
+
 import jason.asSyntax.Structure;
 import jason.environment.*;
 
+import java.util.logging.Logger;
+
 public class myEnvironment extends Environment {
 
-    private final Logger logger = (Logger) Logger.getLogger("project."+myEnvironment.class.getName());
+    private Logger logger = Logger.getLogger("project."+myEnvironment.class.getName());
 
     public void init(String[] args){
-
+        super.init(args);
+        logger.info("Env init");
     }
 
     @Override
@@ -23,4 +26,5 @@ public class myEnvironment extends Environment {
     public void stop(){
         super.stop();
     }
+
 }
