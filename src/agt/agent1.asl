@@ -1,4 +1,4 @@
 !start.
 
 +!start : true <-
-    .print("Agent started");
+    .print("Agent started").

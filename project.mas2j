@@ -1,6 +1,6 @@
 MAS project{
 
-    environment : myEnvironment
+    environment : src.envy.myEnvironment
 
     agents:
         agent1;
